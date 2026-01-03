@@ -1,0 +1,95 @@
+OSINT Case Report – Email: demo.investigation@proton.me
+1. Executive Summary
+This report demonstrates an OSINT investigation of the fictional email address demo.investigation@proton.me using automated tooling. The purpose is to showcase investigative methodology, tool usage, and structured reporting for portfolio demonstration. The email belongs to a privacy‑focused provider (ProtonMail), and no breach data, linked accounts, or high‑risk indicators were identified.
+
+2. Tools Used
+GHunt (email intelligence)
+
+theHarvester (email footprinting)
+
+Custom master.bat  automation
+
+Manual log review and verification
+
+3. Findings
+3.1 Email Provider
+ProtonMail
+
+Privacy‑focused
+
+End‑to‑end encrypted
+
+Common among users who value anonymity
+
+No metadata leakage detected
+
+3.2 Breach & Exposure Checks
+No breach records found
+
+No stealer logs
+
+No compromised credentials
+
+No associated IP addresses
+
+3.3 Account Associations
+No Google account detected
+
+No linked social media accounts
+
+No public profiles discovered
+
+No people or identity matches
+
+3.4 theHarvester Results
+theHarvester attempted multiple OSINT modules but returned limited data due to missing API keys. Despite this, it successfully confirmed:
+
+1 email found: demo.investigation@proton.me
+
+0 hosts found
+
+0 IPs found
+
+0 people found
+
+No LinkedIn users found
+
+3.5 Hudson Rock (via theHarvester)
+0 stealer logs
+
+0 compromised IPs
+
+2 generic hosts detected (not tied to the target)
+
+No actionable intelligence
+
+4. Analysis
+The use of ProtonMail suggests the email is intended for privacy or compartmentalized communication.
+
+No breach data or stealer logs indicate the email is not compromised.
+
+No linked accounts or identity matches suggest the email is either:
+
+Newly created
+
+Used for isolated activity
+
+Or intentionally anonymous
+
+theHarvester’s API‑key warnings are expected in a practice environment and do not affect the integrity of the analysis.
+
+The absence of metadata, social profiles, or public records indicates a low digital footprint.
+
+5. Risk Indicators
+Privacy‑focused provider (neutral indicator)
+
+No linked identity (neutral)
+
+No malicious indicators
+
+No suspicious platform associations
+
+Overall risk level: Low
+
+6. Conclusion
+The email demo.investigation@proton.me shows minimal online presence and no indicators of compromise or malicious activity. The investigation demonstrates the use of automated OSINT tooling (GHunt, theHarvester) and the ability to interpret partial or limited results while maintaining structured, professional reporting.

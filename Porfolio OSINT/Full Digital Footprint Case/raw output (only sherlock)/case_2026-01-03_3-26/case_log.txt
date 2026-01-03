@@ -1,0 +1,3 @@
+[USERNAME] Target: techtrace_demo 
+[USERNAME] Output folder: C:\OSINT-Pipeline\output\cases\case_2026-01-03_3-26\username 
+[USERNAME] Sherlock complete 

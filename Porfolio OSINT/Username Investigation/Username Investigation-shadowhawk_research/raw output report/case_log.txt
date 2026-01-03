@@ -1,0 +1,5 @@
+[CASE START] Sat 01/03/2026  3:14:33.66 
+[INFO] Case directory: C:\OSINT-Pipeline\output\cases\case_2026-01-03_3-14
+[USERNAME] Target: shadowhawk_research 
+[USERNAME] Output folder: C:\OSINT-Pipeline\output\cases\case_2026-01-03_3-14\username 
+[USERNAME] Sherlock complete 

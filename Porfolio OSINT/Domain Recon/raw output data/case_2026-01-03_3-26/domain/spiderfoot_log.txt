@@ -1,0 +1,8 @@
+2026-01-03 03:40:41,616 [INFO] sf : Modules enabled (3): _all,sfp__stor_db,sfp__stor_stdout
+2026-01-03 03:40:43,051 [INFO] sflib : Scan [3D40CD74] for 'example-investigation.net' initiated.
+2026-01-03 03:40:43,051 [ERROR] sflib : Failed to load module: _all
+2026-01-03 03:40:43,068 [INFO] sflib : sfp__stor_db module loaded.
+2026-01-03 03:40:43,085 [INFO] sflib : sfp__stor_stdout module loaded.
+2026-01-03 03:40:44,188 [INFO] sflib : Running 37 correlation rules on scan 3D40CD74.
+2026-01-03 03:40:44,264 [INFO] sflib : Scan [3D40CD74] completed.
+2026-01-03 03:40:45,017 [INFO] sf : Scan completed with status FINISHED

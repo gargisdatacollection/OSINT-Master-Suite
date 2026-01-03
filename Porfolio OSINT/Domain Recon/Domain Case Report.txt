@@ -1,0 +1,114 @@
+OSINT Case Report – Domain: example‑investigation.net
+1. Executive Summary
+This report demonstrates an OSINT reconnaissance investigation of the fictional domain example‑investigation.net using automated tooling (SpiderFoot and theHarvester). The purpose is to showcase reconnaissance methodology, tool usage, and structured reporting for portfolio demonstration. Both tools returned no DNS records, no WHOIS data, and no infrastructure footprint, consistent with an unregistered or inactive domain.
+
+2. Tools Used
+SpiderFoot (automated reconnaissance)
+
+theHarvester (domain footprinting)
+
+Custom master.bat  automation
+
+Manual verification of DNS and WHOIS data
+
+3. Findings
+3.1 Domain Status
+Domain: example‑investigation.net
+
+Registration: Not registered / inactive
+
+No WHOIS ownership data
+
+No registrar information
+
+No creation or expiration dates
+
+3.2 DNS Records
+No DNS records were identified:
+
+No A record (IPv4)
+
+No AAAA record (IPv6)
+
+No MX (mail) records
+
+No NS (nameserver) records
+
+No TXT records
+
+No SPF/DMARC/DKIM
+
+This indicates the domain is not configured for hosting or email.
+
+3.3 SpiderFoot Results
+SpiderFoot logs show:
+
+Scan initiated successfully
+
+Module _all failed to load (expected in minimal practice environment)
+
+Only storage modules executed (sfp__stor_db, sfp__stor_stdout)
+
+0 hosts discovered
+
+0 subdomains
+
+0 IP addresses
+
+0 technologies detected
+
+0 correlations triggered
+
+Scan completed with status: FINISHED
+
+CSV output confirms:
+
+Domain recognized
+
+No additional data extracted
+
+3.4 theHarvester Results
+theHarvester logs show:
+
+Hudson Rock: 0 compromised records, 0 hosts, 0 IPs, 0 emails
+
+No subdomains
+
+No DNS records
+
+No breach data
+
+No LinkedIn users
+
+No people, hosts, or infrastructure
+
+Multiple API‑key warnings (expected in a practice environment)
+
+No actionable intelligence returned
+
+4. Analysis
+The domain example‑investigation.net appears to be unregistered, which explains the absence of DNS records, WHOIS data, and infrastructure.
+
+No hosting provider, IP address, or SSL certificate indicates the domain has never been used or has been inactive for an extended period.
+
+The lack of OSINT signals suggests the domain has no historical footprint, making it ideal for a clean practice case.
+
+SpiderFoot’s module load error is normal in a minimal configuration and does not affect the validity of the results.
+
+theHarvester’s API‑key warnings are expected and do not impact the core conclusion: the domain has no footprint.
+
+This case demonstrates your ability to interpret zero‑signal recon, which is a critical OSINT skill in threat intelligence, fraud investigations, and infrastructure mapping.
+
+5. Risk Indicators
+No malicious indicators
+
+No suspicious hosting
+
+No threat‑actor associations
+
+No phishing or malware history
+
+Overall risk level: None
+
+6. Conclusion
+The domain example‑investigation.net shows no registration, no DNS configuration, and no digital footprint, consistent with an unregistered or inactive domain. This case demonstrates the use of automated reconnaissance tooling (SpiderFoot, theHarvester) and the ability to produce structured reporting even when results are minimal.

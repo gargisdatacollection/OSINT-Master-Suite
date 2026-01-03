@@ -1,0 +1,124 @@
+OSINT Methodology – Seth Gargis
+1. Investigative Philosophy
+My OSINT methodology is built on accuracy, verification, and structured analysis. I prioritize:
+
+Evidence‑based conclusions
+
+Ethical collection
+
+Repeatable workflows
+
+Clear reporting
+
+My approach is tool‑assisted but analyst‑driven — automation accelerates the process, but human interpretation provides meaning.
+
+2. Core Workflow
+Every investigation follows a consistent, professional sequence:
+
+1. Define the Target
+Identify the digital identifier:
+
+Username
+
+Email
+
+Phone number
+
+Domain
+
+File / metadata
+
+2. Run Automated Collection
+Use my OSINT pipeline to gather:
+
+Username enumeration
+
+Email intelligence
+
+Phone footprinting
+
+Domain reconnaissance
+
+Metadata extraction
+
+Passive infrastructure data
+
+3. Validate & Cross‑Reference
+I verify:
+
+Platform authenticity
+
+Data consistency
+
+False positives
+
+Historical signals
+
+4. Analyze Findings
+I interpret:
+
+Identity patterns
+
+Behavioral indicators
+
+Risk signals
+
+Infrastructure clues
+
+5. Produce a Structured Report
+Each case includes:
+
+Executive summary
+
+Tools used
+
+Findings
+
+Analysis
+
+Risk indicators
+
+Conclusion
+
+3. Ethical OSINT Principles
+I follow strict ethical guidelines:
+
+No intrusion
+
+No unauthorized access
+
+No exploitation
+
+No targeting real individuals without consent
+
+Use of fictional identifiers for training and portfolio work
+
+4. Automation Philosophy
+My pipeline is designed to:
+
+Reduce manual workload
+
+Standardize case structure
+
+Improve repeatability
+
+Ensure consistent output
+
+Support multi‑tool investigations
+
+Automation handles collection — I handle interpretation.
+
+5. Reporting Standards
+My reports are:
+
+Clear
+
+Concise
+
+Evidence‑based
+
+Structured
+
+Professional
+
+Each report is written to be client‑ready and suitable for employers in OSINT, threat intelligence, or investigative roles.

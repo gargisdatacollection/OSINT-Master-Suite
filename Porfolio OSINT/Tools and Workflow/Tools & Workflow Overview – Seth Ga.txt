@@ -1,0 +1,68 @@
+Tools & Workflow Overview – Seth Gargis
+1. OSINT Pipeline Overview
+My OSINT pipeline is a modular, automated suite that performs:
+
+Username enumeration
+
+Email intelligence
+
+Phone footprinting
+
+Domain reconnaissance
+
+Metadata extraction
+
+Case folder creation
+
+Summary generation
+
+Each module can run independently or as part of a structured workflow.
+
+2. Tools Integrated Into the Pipeline
+Username Intelligence
+Sherlock
+Used to identify platform presence and cross‑platform identity patterns.
+
+Email Intelligence
+GHunt
+
+theHarvester
+Used to analyze email providers, breach exposure, and digital footprint.
+
+Phone Intelligence
+Windows‑native phone OSINT module
+Used to identify line type, carrier, and social footprint pivots.
+
+Domain Reconnaissance
+SpiderFoot
+
+theHarvester
+Used to map infrastructure, DNS records, and passive OSINT signals.
+
+Metadata Extraction
+ExifTool
+Used to extract metadata from files and images.
+
+3. Case Folder Structure
+Every investigation uses a standardized structure:
+
+Code
+/raw-output
+/report
+/notes
+This ensures consistency and professional organization.
+
+4. Workflow Summary
+Receive target identifier
+
+Create case folder
+
+Run automated modules
+
+Validate results
+
+Analyze findings
+
+Produce structured report
+
+Archive raw output

@@ -1,0 +1,43 @@
+OSINT Case Report – Username: shadowhawk_research
+1. Executive Summary
+This report demonstrates an OSINT investigation of the fictional username shadowhawk_research using an automated pipeline. The purpose is to showcase investigative methodology, tool usage, and structured reporting for portfolio demonstration. The username produced two platform matches, both low‑risk and non‑sensitive.
+
+2. Tools Used
+Sherlock (username enumeration)
+
+Custom master.bat  automation
+
+Manual verification of platform results
+
+3. Findings
+3.1 Platforms Where Username Was Found
+Platform	URL	Notes
+Cracked Forum	https://cracked.sh/shadowhawk_research	Appears as a profile placeholder; no content verified
+omg.lol	https://shadowhawk_research.omg.lol	Personal profile service; no additional data available
+3.2 Platforms Where Username Was Not Found
+Sherlock checked hundreds of platforms and returned no additional matches.
+
+4. Analysis
+The username appears on two platforms, suggesting either a low‑usage identity or a newly created handle.
+
+Neither platform indicates malicious activity, sensitive content, or high‑risk behavior.
+
+The presence on omg.lol suggests the username may be used for personal branding or lightweight identity hosting.
+
+The Cracked Forum result may be a placeholder or inactive profile; no content was confirmed.
+
+No cross‑platform consistency was detected, meaning this username does not appear to be tied to a widespread online identity.
+
+5. Risk Indicators
+No high‑risk platforms detected
+
+No evidence of impersonation
+
+No linked email, phone, or domain
+
+No metadata or images associated with the username
+
+Overall risk level: Low
+
+6. Conclusion
+The username shadowhawk_research shows minimal online presence with two low‑risk platform matches. No indicators of malicious activity, coordinated behavior, or identity linkage were found. This case demonstrates the use of automated OSINT tooling to perform username enumeration and produce structured intelligence reporting.

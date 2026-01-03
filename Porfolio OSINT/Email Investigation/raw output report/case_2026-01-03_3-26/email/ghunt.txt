@@ -1,0 +1,37 @@
+
+     .d8888b.  888    888                   888    
+    d88P  Y88b 888    888                   888    
+    888    888 888    888                   888    
+    888        8888888888 888  888 88888b.  888888 
+    888  88888 888    888 888  888 888 "88b 888    
+    888    888 888    888 888  888 888  888 888    
+    Y88b  d88P 888    888 Y88b 888 888  888 Y88b.  
+     "Y8888P88 888    888  "Y88888 888  888  "Y888 v2
+
+             Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\OSINT-Pipeline\ghunt-env\Scripts\ghunt.exe\__main__.py", line 7, in <module>
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\ghunt\ghunt.py", line 15, in main
+    show_banner()
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\ghunt\helpers\banner.py", line 19, in show_banner
+    gb.rc.print(banner)
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\rich\console.py", line 1667, in print
+    with self:
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\rich\console.py", line 869, in __exit__
+    self._exit_buffer()
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\rich\console.py", line 827, in _exit_buffer
+    self._check_buffer()
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\rich\console.py", line 2024, in _check_buffer
+    legacy_windows_render(buffer, LegacyWindowsTerm(self.file))
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\rich\_windows_renderer.py", line 17, in legacy_windows_render
+    term.write_styled(text, style)
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\rich\_win32_console.py", line 442, in write_styled
+    self.write_text(text)
+  File "C:\OSINT-Pipeline\ghunt-env\lib\site-packages\rich\_win32_console.py", line 403, in write_text
+    self.write(text)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f426' in position 11: character maps to <undefined>
